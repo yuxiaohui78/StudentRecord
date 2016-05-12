@@ -1,27 +1,5 @@
 
-//Final Project main program
-//12/14/2013
-//This is the main program for our final project. It uses 6 data structures. Each student in the database is entered as
-//a StudentNode, each of which has enough pointers to be inserted into 2 Binary Search Trees (BSTA, BSTB). BSTA is 
-//sorted by SSN to allow for lookup by SSN in O(lgn) time. BSTB is sorted by Student Number to allow for lookup by Student Number in O(lgn) time.
-//The StudentNodes are then placed in an unordered linked list (studList). This was neccesary because if
-//the students were written to the file by means of the traverse function of either of the BST's, the enxt time we call the 
-//program they would be read in in that same order and therefore inserted in ascending order, causing one of the binary
-//search trees to just be a linked list. This would mean O(n) search time, which we don't want, so this unordered list was
-//a neccesity. Meanwhile, each idea made into an IdeaNode and is inserted into 3 data structures. It first gets inserted into an
-//ordered linked list by idea rating. This is our idea database from where the best idea can be accessed and sold in constant time. Next it is inserted
-//in to whoever's personal idea queue(array implementation) that added the idea. It is also inserted into an ordered linked list by idea 
-//number. This is so when the ideas are written to a file, they are done so in ascending order of idea number. Then, when read back into the 
-//program, the oldest ideas (lowest idea numbers) will be the ones deleted from each person's last 10 queue and every queue will
-//still be in chronological order. Note that once an idea has been sold from the database, it is 'deactivated' and will no longer
-//appear in the database next time the program is run, although it still appears in a students last 10 queue if it is recent enough.
-//When you run the program, the first menu you see asks you if you are a student or an admin. If you type 'student', you
-//have the option to enter a new idea. After entering your SSN, you are prompted for your idea. When finished entering
-//ideas, you can type exit to return to the main menu. If you select admin, you have many more options. You can choose to
-//look up any student record by their SSN (via BSTA), add a new student, modify an existing student, delete a student, 
-//lookup a student email address by their Student Number (via BSTB), view and delete the best idea in the database, view
-//all students and their information, ordered by Student Number (via BSTB traverse, O(n)), or view the best idea in the database
-//without deleting it. When finished the data is written to two separate files, one for ideas and one for students. 
+//main
 
 import java.util.Scanner;
 import java.io.FileReader;

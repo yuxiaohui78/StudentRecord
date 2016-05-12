@@ -1,0 +1,28 @@
+1 6780 95 1                      This is a super good idea                                                        
+2 6780 81 1                       This is a rather good idea                                                        
+3 5223 90 1                       This is a really good idea                                                        
+4 6780 75 1                        This sure is a pretty good idea                                                        
+5 5208 68 1                       This is a weak idea                                                        
+6 5788 90 1                       This is a pretty great idea                                                        
+7 8174 94 1                       This is a very excellent idea                                                        
+8 5227 93 1                       This is an excellent idea                                                         
+9 5678 77 1                       This is a passable idea                                                        
+10 5223 83 1                       This is a potentially viable idea                                                        
+11 6780 96 1                       This is a really really good idea                                                        
+12 6780 80 1                       This is a decent idea                                                        
+13 7856 92 1                       This is a extremely good idea                                                        
+14 6780 80 1                       This is a semi-good idea                                                        
+15 6780 89 1                       This is a  good idea                                                        
+16 6223 93 1                       This is a pretty good idea                                                        
+17 5223 87 1                       This is a pretty good idea                                                        
+18 5223 67 1                       This is not a very good idea                                                        
+19 6780 59 1                       This is a pretty bad idea                                                        
+20 6780 88 1                       This is a darn good idea                                                        
+21 6780 78 1                       This is a possible idea                                                        
+22 7788 80 1                       This is a possibly good idea                                                        
+23 5678 89 1                       This is a pretty solid idea                                                        
+24 5223 90 1                       This is a boss idea                                                       
+25 6780 91 1                       This is a very good idea                                                        
+26 6780 64 1                       This is a mediocre idea                                                        
+27 6780 48 1                       This is an awful idea                                                        
+

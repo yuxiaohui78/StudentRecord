@@ -1,10 +1,6 @@
-//Final Project BSTA
-//12/14/2013
-//This is a binary search tree that keeps StudentNodes and is ordered by SSN. It is used any time lookup by SSN is needed,
-//such as for looking up a record, modifying or deleting by the admin or entering a new idea as a student. It can
-//inser, delete, search, traverse, and print the tree.
 
 
+//Sort by SSN
 
 public class BSTA
 {

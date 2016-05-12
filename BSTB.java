@@ -1,9 +1,4 @@
-//Final Project BSTB
-//12/14/2013
-//This is a binary search tree that keeps track of StudentNodes and is ordered by Student Number. It is useful when we need
-//to lookup by student number, such as admin option e (lookup email by SN). It also helps in admin option g (view all students), since
-//this can be accomplished using traverse. Its delete is the same as BSTA (though variables and method names different), so refer to BSTA
-//for comments on how the deletion is working
+\\Ordered by student number
 
 public class BSTB
 {
